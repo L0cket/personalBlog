@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us - PersonalBlog</title>
+    <link href='css/style.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/cb1ed71408.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class='header header_mod'>
+        <div class='container'>
+            <div class='header_menu'>
+                <div class='header_burger'>
+                    <div class='burger_link'><i class="fas fa-bars"></i></div>
+                    <div class="burger_menu">
+                        <nav class="burger_nav">
+                            <ul class="burger_list">
+                                <li class="burger_item"><a href="index.html" target='_blank' class="burger_item_link">Home</a></li>
+                                <li class="burger_item"><a href="about_me_post.html" target='_blank' class="burger_item_link">About me</a></li>
+                                <li class="burger_item" id='information'>information</li>
+                                <li class="burger_item burger_social">
+                                    <div class='header_links burger_social_links'>
+                                        <a href='#' target='_blank' class='header_link'><i class="fas fa-wifi"></i></a>
+                                        <a href='https://twitter.com/?lang=ru' target='_blank' class='header_link'><i class="fab fa-twitter"></i></a>
+                                        <a href='https://www.tumblr.com/' class='header_link' target='_blank'><i class="fab fa-tumblr"></i></a>
+                                        <a href='https://www.facebook.com/' target='_blank' class='header_link'><i class="fab fa-facebook-f"></i></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <a href='index.html' class='header_link'>
+                    <div class='header_logo'>
+                        <img src='img/logo.png' alt='' class='logo'>
+                        <span>blog</span>
+                    </div>
+                </a>
+                <div class='header_links'>
+                    <a href='#' target='_blank' class='header_link'><i class="fas fa-wifi"></i></a>
+                    <a href='https://twitter.com/?lang=ru' target='_blank' class='header_link'><i class="fab fa-twitter"></i></a>
+                    <a href='https://www.tumblr.com/' class='header_link' target='_blank'><i class="fab fa-tumblr"></i></a>
+                    <a href='https://www.facebook.com/' target='_blank' class='header_link'><i class="fab fa-facebook-f"></i></a>
+                    <a href='#' class='header_link'><i class="fas fa-search"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class='section_posts'>
+        <div class='container'>
+            <div class='posts_content'>
+                <div class="posts">
+                    <div class="contact_info">
+                        <div class="contact_map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.1583091352!2d-74.11976373946234!3d40.69766374859258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z0J3RjNGOLdCZ0L7RgNC6LCDQodCo0JA!5e0!3m2!1sru!2sru!4v1615973302721!5m2!1sru!2sru" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                        <div class="contact_content">
+                            <h2 class="contact_title">Contact Information</h2>
+                            <div class="contact_content_info">
+                                <p class="contact_text">
+                                    In case you some aquestions popped in your’s mind, FeIn case you some aquestions popped in your’el email or even visit us.
+                                </p>
+                                <div class="contact_data">
+                                    <div class="contact_data_item"><i class="fas fa-home"></i>Address: 123 Street Name, City Name, United States.</div>
+                                    <div class="contact_data_item"><i class="far fa-envelope"></i><a href="mailto:info@lifestyle.com" target='_blank' class="contact_data_link">Email: info@lifestyle.com</a></div>
+                                    <div class="contact_data_item"><i class="fas fa-globe-americas"></i><a href="http://www.lifestyle.com/" target='_blank' class="contact_data_link">www.lifestyle.com</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact_forms">
+                        <form action="/">
+                            <div class="contact_form_info">
+                                <input class='contact_form' type='text' name='contact_name' placeholder='YOUR NAME' maxlength='50' required>
+                                <input class='contact_form' type='email' name='contact_email' placeholder='YOUR EMAIL ADDRESS' maxlength='70' required>
+                            </div>
+                            <div class="contact_form_address">
+                                <input type='text' class="contact_form contact_out_form" name='contact_website_adress' placeholder='WEBSITE ADDRESS' required>
+                                <textarea class='contact_form contact_out_form' name="contact_message" placeholder='PLEASE WRITE A MESSAGE HERE!'></textarea>
+                            </div>
+                            <button class="contact_form_submit" type="submit" name='contact_submit' value='send message'>send message</button>
+                        </form>
+                    </div>
+                </div>
+                <aside class='posts_sidebar'>
+                    <div class='posts_sidebar_search'>
+                        <form action="/" method='post'>
+                            <div class="sidebar_search">
+                                    <input type="search" name='search' placeholder='search' class='input_search'>
+                                    <button class='search_button' type="submit"><i class="fas fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="sidebar_categories">
+                        <h2 class="categories_title">Categories</h2>
+                        <div class="categories_content">
+                            <div class="categories_item">
+                                <a href="#" class="categories_link">
+                                    <span>Lifestyle</span>
+                                    <span>98</span>
+                                </a>
+                            </div>
+                            <div class="categories_item">
+                                <a href="#" class="categories_link">
+                                    <span>Audio</span>
+                                    <span>102</span>
+                                </a>
+                            </div>
+                            <div class="categories_item">
+                                <a href="#" class="categories_link">
+                                    <span>Gallery</span>
+                                    <span>83</span>
+                                </a>
+                            </div>
+                            <div class="categories_item">
+                                <a href="#" class="categories_link">
+                                    <span>Image</span>
+                                    <span>04</span>
+                                </a>
+                            </div>
+                            <div class="categories_item">
+                                <a href="#" class="categories_link">
+                                    <span>Standart</span>
+                                    <span>109</span>
+                                </a>
+                            </div>
+                            <div class="categories_item">
+                                <a href="#" class="categories_link">
+                                <span>Status</span>
+                                <span>50</span>
+                            </a>
+                            </div>
+                            <div class="categories_item">
+                                <a href="#" class="categories_link">
+                                    <span>Video</span>
+                                    <span>102</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar_second_img">
+                        <img src="img/sidebar_ad.jpg" alt="" class="sidebar_img">
+                    </div>
+                    <div class="sidebar_categories">
+                        <h2 class="categories_title">Latest post</h2>
+                        <div class="categories_content">
+                            <div class="categories_item">
+                                <div class="latest_posts">
+                                    <div class="latest_post_img"><img src="img/lifestyle.jpg" alt="" class="latest_image"></div>
+                                    <div class="latest_post_content">
+                                        <h3><a href="#" class="latest_post_title">Journey Towards a Lifestyle</a></h3>
+                                        <div class="latest_post_stats"><time class="latest_post_date">jan. 23 2016</time><span class="latest_post_likes">like 255</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories_item">
+                                <div class="latest_posts">
+                                    <div class="latest_post_img"><img src="img/shoes.jpg" alt="" class="latest_image"></div>
+                                    <div class="latest_post_content">
+                                        <h3 class="latest_post_title"><a href="#" class="latest_post_title">Fashionable shoes for men</a></h3>
+                                        <div class="latest_post_stats"><time class="latest_post_date">jan. 18 2016</time><span class="latest_post_likes">like 26</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories_item">
+                                <div class="latest_posts">
+                                    <div class="latest_post_img"><img src="img/campfire.jpg" alt="" class="latest_image"></div>
+                                    <div class="latest_post_content">
+                                        <h3 class="latest_post_title"><a href="#" class="latest_post_title">really awesome’s Adventure</a></h3>
+                                        <div class="latest_post_stats"><time class="latest_post_date">jan. 16 2016</time><span class="latest_post_likes">like 23</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+    <section class='section_info'>
+        <div class='post_info'>
+            <div class="post_info_content">
+                <div class='post_info_item'>
+                    <h1 class='post_info_title'>About blog</h1>
+                    <p class='post_info_text'>A blog is a discussion or informational website, often informal diary-style text.</p>
+                    <div class='post_info_image'><img src="img/info_img/blog_women.jpg" alt="" class="post_info_img"></div>
+                </div>
+                <div class='post_info_item'>
+                    <h1 class='post_info_title'>Latest tweets</h1>
+                    <nav class='post_info_nav'>
+                        <ul class='post_info_ul'>
+                            <li class='post_info_li'>
+                                <div class='post_info_text'>@Twitter@magicalrebekah</div>
+                                <p class='post_info_text'>Developer Advocate @heyval isaiyou knows the very well  is about things.</p>
+                            </li>
+                            <li class='post_info_li'>
+                                <div class='post_info_text'>@Twitter@magicalrebekah</div>
+                                <p class='post_info_text'>Developer Advocate have a great work this knows the very well is about things.</p>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="post_info_content">
+                <div class='post_info_item'>
+                    <h1 class='post_info_title'>Follow me instagram</h1>
+                    <div class='post_info_gallery'>
+                        <div class='post_info_gallery_row'>
+                            <div class='post_info_gallery_item'><a href="https://www.instagram.com/l0cketp4ge/" target='_blank' class="gallery_link"><img src="img/info_img/girl_suck.jpg" alt="" class="gallery_img"></a></div>
+                            <div class='post_info_gallery_item'><a href="https://www.instagram.com/l0cketp4ge/" target='_blank' class="gallery_link"><img src="img/info_img/roof.jpg" alt="" class="gallery_img"></a></div>
+                            <div class='post_info_gallery_item'><a href="https://www.instagram.com/l0cketp4ge/" target='_blank' class="gallery_link"><img src="img/info_img/sex_men.jpg" alt="" class="gallery_img"></a></div>
+                            <div class='post_info_gallery_item'><a href="https://www.instagram.com/l0cketp4ge/" target='_blank' class="gallery_link"><img src="img/info_img/scary_girl.jpg" alt="" class="gallery_img"></a></div>
+                            <div class='post_info_gallery_item'><a href="https://www.instagram.com/l0cketp4ge/" target='_blank' class="gallery_link"><img src="img/info_img/legs_on_window.jpg" alt="" class="gallery_img"></a></div>
+                            <div class='post_info_gallery_item'><a href="https://www.instagram.com/l0cketp4ge/" target='_blank' class="gallery_link"><img src="img/info_img/sea.jpg" alt="" class="gallery_img"></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class='post_info_item'>
+                    <h1 class='post_info_title'>Latest comment</h1>
+                    <div class='post_info_comment'>
+                        <div class='post_info_text'>From alex:</div>
+                        <p class='post_info_text'>Developer Advocate @heyval isaiyou knows the very well  is about things.</p>
+                    </div>
+                    <div class='post_info_comment post_info_comment_item'>
+                        <div class='post_info_text'>From Jhon Doe:</div>
+                        <p class='post_info_text'>Developer Advocate @heyval isaiyou knows the very well  is about things.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class='footer'>
+        <div class='container'>
+            <div class='footer_copyrights'>
+                <span class='footer_span_first'>@2021 copyright. All right reserved by Awesome theme</span>
+                <a href='#' class='footer_terms'><span>Terms policy</span></a>
+                <a href="#" class="footer_terms"><span>Disclaimer</span></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>

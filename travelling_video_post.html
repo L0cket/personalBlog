@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel video - post</title>
+    <link href='css/style.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/cb1ed71408.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class='header'>
+        <div class='container'>
+            <div class='header_menu'>
+                <div class='header_burger'>
+                    <div class='burger_link'><i class="fas fa-bars"></i></div>
+                    <div class="burger_menu">
+                        <nav class="burger_nav">
+                            <ul class="burger_list">
+                                <li class="burger_item"><a href="index.html" target='_blank' class="burger_item_link">Home</a></li>
+                                <li class="burger_item"><a href="about_me_post.html" target='_blank' class="burger_item_link">About me</a></li>
+                                <li class="burger_item"><a href="contact_us.html" target='_blank' class="burger_item_link">Contact us</a></li>
+                                <li class="burger_item" id='information'>information</li>
+                                <li class="burger_item" id='blog_posts'>posts</li>
+                                <li class="burger_item burger_social">
+                                    <div class='header_links burger_social_links'>
+                                        <a href='#' target='_blank' class='header_link'><i class="fas fa-wifi"></i></a>
+                                        <a href='https://twitter.com/?lang=ru' target='_blank' class='header_link'><i class="fab fa-twitter"></i></a>
+                                        <a href='https://www.tumblr.com/' class='header_link' target='_blank'><i class="fab fa-tumblr"></i></a>
+                                        <a href='https://www.facebook.com/' target='_blank' class='header_link'><i class="fab fa-facebook-f"></i></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <a href='index.html' class='header_link'>
+                    <div class='header_logo'>
+                        <img src='img/logo.png' alt='' class='logo'>
+                        <span>blog</span>
+                    </div>
+                </a>
+                <div class='header_links'>
+                    <a href='#' target='_blank' class='header_link'><i class="fas fa-wifi"></i></a>
+                    <a href='https://twitter.com/?lang=ru' target='_blank' class='header_link'><i class="fab fa-twitter"></i></a>
+                    <a href='https://www.tumblr.com/' class='header_link' target='_blank'><i class="fab fa-tumblr"></i></a>
+                    <a href='https://www.facebook.com/' target='_blank' class='header_link'><i class="fab fa-facebook-f"></i></a>
+                    <a href='#' class='header_link'><i class="fas fa-search"></i></a>
+                </div>
+            </div>
+            <div class='header_slider'>
+                <div class="slider_content swiper-wrapper">
+                    <div class="slider_item swiper-slide">
+                        <div class='slider_titles'>
+                            <h2>latest news 1</h2>
+                            <h3>bodybuilding best for your health</h3>
+                        </div>
+                        <img src='img/header_man.jpg' alt='' class='header_slider_background'>
+                    </div>
+                    <div class="slider_item swiper-slide">
+                        <div class='slider_titles'>
+                            <h2>latest news 2</h2>
+                            <h3>bodybuilding best for your health</h3>
+                        </div>
+                        <img src='img/header_man.jpg' alt='' class='header_slider_background'>
+                    </div>
+                    <div class="slider_item swiper-slide">
+                        <div class='slider_titles'>
+                            <h2>latest news 3</h2>
+                            <h3>bodybuilding best for your health</h3>
+                        </div>
+                        <img src='img/header_man.jpg' alt='' class='header_slider_background'>
+                    </div>
+                    <div class="slider_item swiper-slide">
+                        <div class='slider_titles'>
+                            <h2>latest news 4</h2>
+                            <h3>bodybuilding best for your health</h3>
+                        </div>
+                        <img src='img/header_man.jpg' alt='' class='header_slider_background'>
+                    </div>
+                </div>
+                <div class='slider_control'>
+                    <div class='slider_blocks swiper-pagination'>
+                        <!-- <span class='slider_blocks_item slider_slide_active'></span>
+                        <span class='slider_blocks_item'></span>
+                        <span class='slider_blocks_item'></span>
+                        <span class='slider_blocks_item'></span> -->
+                    </div>
+                    <div class='slider_slide'>
+                        <div class='link_arrow next_btn'><img src='img/top_arrow.png' alt='' class='slide_arrow swiper-button-next'></div>
+                        <div class='slide_text'>Featured article</div>
+                        <div class='link_arrow prev_btn'><img src='img/down_arrow.png' alt='' class='slide_arrow swiper-button-prev'></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class='container'>
+            <form action="#" method='get'>
+                <div class='signup'>
+                    <div class='signup_text'>signup to newsletter</div>
+                    <input class='name_form' type='text' name='signup_name' placeholder='YOUR NAME' maxlength='50' required>
+                    <input class='email_form' type='email' name='signup_email' placeholder='YOUR EMAIL ADDRESS' maxlength='70' required>
+                    <button class='signup_button' type='submit' name='signup_submit'>subscribe now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class='section_posts'>
+        <div class='container'>
+            <div class='posts_content'>
+                <div class="posts">
+                    <div class='post video_post'>
+                        <div class='post_top_preview post_alone_img'>
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/xdV_ONLQIxk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class='post_content'>
+                            <img src='img/icon_frame.png' alt='' class='post_logo'>
+                            <div class='post_titles'>
+                                <h2 class='post_theme post_title_theme'>Travelling</h2>
+                                <h1 class='post_title'>Ben Sturgulewski Cinematography Reel :: Sturgefilm Adventure & travelling 2016</h1>
+                                <div class='post_title_theme'><span class="post_user_date"><i class="fas fa-user-alt"></i>Dike Acalister</span><span class="post_user_date"><i class="fas fa-calendar-alt"></i><time datetime='2016-01-16'>January 16, 2016</time></span></div>
+                            </div>
+                            <div class="post_texts">
+                                <p class='post_text'>ent in search of the untamed, the estranged, the wild few tending the flame. I found myself in a world bigger agrander i athas is a all imagination, color and life vibrating in everything. Just what sort of wonder could this new world hold?'
+                                    All shots by Ben Sturgulewski, from features, commercials, and personal projects. Filmed on location in Alaska, Argentina, Bolivia, British Columbia, Dubai, Japan, Oregon, the Maldives, and Washington State.</p>
+                            </div>
+                            <div class='post_title_theme'><span class="post_user_date"><span class="post_form_img"><img src="img/icon_form.png" alt="" class="post_form"></span>video, beautiful, nature, place, weather</span></div>
+                        </div>
+                        <div class='post_comment'>
+                            <div class='comments'>
+                                <div class="post_comment_likes">
+                                    <i class="far fa-comments"></i>06 comment
+                                </div>
+                                <div class="post_comment_likes">
+                                    <i class="far fa-heart"></i>Like 14
+                                </div>
+                            </div>
+                            <div class="comment_rating">
+                                <div class="rating_text">Average : 5%</div>
+                                <div class="rating_stars">
+                                    <img src="img/icon_star_active.png" alt="" class="rating_star">
+                                    <img src="img/icon_star_active.png" alt="" class="rating_star">
+                                    <img src="img/icon_star_active.png" alt="" class="rating_star">
+                                    <img src="img/icon_star_active.png" alt="" class="rating_star">
+                                    <img src="img/icon_star_active.png" alt="" class="rating_star">
+                                </div>
+                            </div>
+                            <div class='post_social'>
+                                <a href='https://dribbble.com/' target='_blank' class='comment_link'><i class="fab fa-dribbble"></i></a>
+                                <a href='https://www.facebook.com/' target='_blank' class='comment_link'><i class="fab fa-facebook-f"></i></a>
+                                <a href='https://twitter.com/' target='_blank' class='comment_link'><i class="fab fa-twitter"></i></a>
+                                <a href='https://www.pinterest.ru/' target='_blank' class='comment_link'><i class="fab fa-pinterest"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="other_posts">
+                        <a href='fashion&adventure_post.html' class="posts_btns post_prev_btn">
+                            <div class="sidebar_btn_arrows">
+                                <div class="arrow_head"></div>
+                                <div class="arrow_body"></div>
+                            </div>
+                            <div class="post_btns_text">Previous post</div>
+                        </a>
+                        <a href='lifestyle_post.html' class="posts_btns post_next_btn">
+                            <div class="post_btns_text">Next post</div>
+                            <div class="sidebar_btn_arrows">
+                                <div class="arrow_head"></div>
+                                <div class="arrow_body"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="post_author">
+                        <div class="author_preview"><img src="img/Michell.jpg" alt="" class="author_img"></div>
+                        <div class="post_author_content">
+                            <div class="post_author_header">
+                                <h2 class="author_name">Michell Beverly</h2>
+                                <a href="#" class="author_all_post">all post</a>
+                            </div>
+                            <p class="author_text">Patricia gives you the ability to let 
+                                people actually read have your content, instead of 
+                                focusing on all the other stuff that’s going on their screen.</p>
+                        </div>
+                    </div>
+                    <div class="post_author_social">
+                        <a href="https://www.facebook.com/" target='_blank' class="author_social_link">
+                            <div class="author_social_icon"><i class="fab fa-facebook-f"></i></div>
+                            <div class="author_social_name">Facebook 28</div>
+                        </a>
+                        <a href="https://twitter.com/" target='_blank' class="author_social_link">
+                            <div class="author_social_icon"><i class="fab fa-twitter"></i></div>
+                            <div class="author_social_name">Twitter 40</div>
+                        </a>
+                        <a href="https://www.tumblr.com/" target='_blank' class="author_social_link">
+                            <div class="author_social_icon"><i class="fab fa-tumblr"></i></div>
+                            <div class="author_social_name">Tumblr 11</div>
+                        </a>
+                        <a href="https://www.pinterest.ru/" target='_blank' class="author_social_link">
+                            <div class="author_social_icon"><i class="fab fa-pinterest"></i></div>
+                            <div class="author_social_name">Pinterest 83</div>
+                        </a>
+                    </div>
+                    <div class="post_recomend_posts">
+                        <div class="post_recomend_header">
+                            <h2 class="post_recomend_title">Recomended posts</h2>
+                            <div class="post_recomend_slider_buttons">
+                                <div class="post_recomend_btn post_recomend_prevBtn">
+                                    <div class="arrow_head"></div>
+                                    <div class="arrow_body"></div>
+                                </div>
+                                <div class="post_recomend_btn post_recomend_nextBtn">
+                                    <div class="arrow_head"></div>
+                                    <div class="arrow_body"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post_recomend_slider">
+                            <div class="post_recomend_slider_content swiper-wrapper">
+                                <div class="post_recomend_slider_item swiper-slide">
+                                    <div class="recomend_item_preview"><img src="img/girl_on_car.jpg" alt="" class="recomend_item_img"></div>
+                                    <p class='recomend_item_text'><a href="#" class="recomend_post_link">Girl on car vintage fashion</a></p>
+                                </div>
+                                <div class="post_recomend_slider_item swiper-slide">
+                                    <div class="recomend_item_preview"><img src="img/tea.jpg" alt="" class="recomend_item_img"></div>
+                                    <p class='recomend_item_text'><a href="#" class="recomend_post_link">Women make a tea for cup</a></p>
+                                </div>
+                                <div class="post_recomend_slider_item swiper-slide">
+                                    <div class="recomend_item_preview"><img src="img/car.jpg" alt="" class="recomend_item_img"></div>
+                                    <p class='recomend_item_text'><a href="#" class="recomend_post_link">I found the model 1980's car</a></p>
+                                </div>
+                                <div class="post_recomend_slider_item swiper-slide">
+                                    <div class="recomend_item_preview"><img src="img/girl_on_car.jpg" alt="" class="recomend_item_img"></div>
+                                    <p class='recomend_item_text'><a href="#" class="recomend_post_link">Girl on car vintage fashion</a></p>
+                                </div>
+                                <div class="post_recomend_slider_item swiper-slide">
+                                    <div class="recomend_item_preview"><img src="img/tea.jpg" alt="" class="recomend_item_img"></div>
+                                    <p class='recomend_item_text'><a href="#" class="recomend_post_link">Women make a tea for cup</a></p>
+                                </div>
+                                <div class="post_recomend_slider_item swiper-slide">
+                                    <div class="recomend_item_preview"><img src="img/car.jpg" alt="" class="recomend_item_img"></div>
+                                    <p class='recomend_item_text'><a href="#" class="recomend_post_link">I found the model 1980's car</a></p>
+                                </div>
+                                <div class="post_recomend_slider_item swiper-slide">
+                                    <div class="recomend_item_preview"><img src="img/girl_on_car.jpg" alt="" class="recomend_item_img"></div>
+                                    <p class='recomend_item_text'><a href="#" class="recomend_post_link">Girl on car vintage fashion</a></p>
+                                </div>
+                                <div class="post_recomend_slider_item swiper-slide">
+                                    <div class="recomend_item_preview"><img src="img/tea.jpg" alt="" class="recomend_item_img"></div>
+                                    <p class='recomend_item_text'><a href="#" class="recomend_post_link">Women make a tea for cup</a></p>
+                                </div>
+                                <div class="post_recomend_slider_item swiper-slide">
+                                    <div class="recomend_item_preview"><img src="img/car.jpg" alt="" class="recomend_item_img"></div>
+                                    <p class='recomend_item_text'><a href="#" class="recomend_post_link">I found the model 1980's car</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <aside class='posts_sidebar'>
+                    <div class='posts_sidebar_search'>
+                        <form action="/" method='post'>
+                            <div class="sidebar_search">
+                                    <input type="search" name='search' placeholder='search' class='input_search'>
+                                    <button class='search_button' type="submit"><i class="fas fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="sidebar_img_content sidebar_ad_content">
+                        <div class="sidebar_ad_block"></div>
+                        <img src="img/sidebar_ad_post.jpg" alt="" class="sidebar_img sidebar_img_ad">
+                    </div>
+                    <div class="sidebar_categories">
+                        <h2 class="categories_title">Categories</h2>
+                        <div class="categories_content">
+                            <div class="categories_item">
+                                <a href="#" class="categories_link">
+                                    <span>Lifestyle</span>
+                                    <span>98</span>
+                                </a>
+                            </div>
+                            <div class="categories_item">
+                                <a href="#" class="categories_link">
+                                    <span>Audio</span>
+                                    <span>102</span>
+                                </a>
+                            </div>
+                            <div class="categories_item">
+                                <a href="#" class="categories_link">
+                                    <span>Gallery</span>
+                                    <span>83</span>
+                                </a>
+                            </div>
+                            <div class="categories_item">
+                                <a href="#" class="categories_link">
+                                    <span>Image</span>
+                                    <span>04</span>
+                                </a>
+                            </div>
+                            <div class="categories_item">
+                                <a href="#" class="categories_link">
+                                    <span>Standart</span>
+                                    <span>109</span>
+                                </a>
+                            </div>
+                            <div class="categories_item">
+                                <a href="#" class="categories_link">
+                                <span>Status</span>
+                                <span>50</span>
+                            </a>
+                            </div>
+                            <div class="categories_item">
+                                <a href="#" class="categories_link">
+                                    <span>Video</span>
+                                    <span>102</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar_second_img">
+                        <img src="img/sidebar_ad.jpg" alt="" class="sidebar_img">
+                    </div>
+                    <div class="sidebar_categories">
+                        <h2 class="categories_title">Latest post</h2>
+                        <div class="categories_content">
+                            <div class="categories_item">
+                                <div class="latest_posts">
+                                    <div class="latest_post_img"><img src="img/lifestyle.jpg" alt="" class="latest_image"></div>
+                                    <div class="latest_post_content">
+                                        <h3><a href="#" class="latest_post_title">Journey Towards a Lifestyle</a></h3>
+                                        <div class="latest_post_stats"><time class="latest_post_date">jan. 23 2016</time><span class="latest_post_likes">like 255</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories_item">
+                                <div class="latest_posts">
+                                    <div class="latest_post_img"><img src="img/shoes.jpg" alt="" class="latest_image"></div>
+                                    <div class="latest_post_content">
+                                        <h3 class="latest_post_title"><a href="#" class="latest_post_title">Fashionable shoes for men</a></h3>
+                                        <div class="latest_post_stats"><time class="latest_post_date">jan. 18 2016</time><span class="latest_post_likes">like 26</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories_item">
+                                <div class="latest_posts">
+                                    <div class="latest_post_img"><img src="img/campfire.jpg" alt="" class="latest_image"></div>
+                                    <div class="latest_post_content">
+                                        <h3 class="latest_post_title"><a href="#" class="latest_post_title">really awesome’s Adventure</a></h3>
+                                        <div class="latest_post_stats"><time class="latest_post_date">jan. 16 2016</time><span class="latest_post_likes">like 23</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories_item">
+                                <div class="latest_posts">
+                                    <div class="latest_post_img"><img src="img/man_hunt.jpg" alt="" class="latest_image"></div>
+                                    <div class="latest_post_content">
+                                        <h3 class="latest_post_title"><a href="#" class="latest_post_title">Man Hunting in jungle</a></h3>
+                                        <div class="latest_post_stats"><time class="latest_post_date">jan. 13 2016</time><span class="latest_post_likes">like 29</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='sidebar_social'>
+                        <a href='https://twitter.com/' target='_blank' class='sidebar_social_links'><i class="fab fa-twitter"></i></a>
+                        <a href='https://www.facebook.com/' target='_blank' class='sidebar_social_links'><i class="fab fa-facebook-f"></i></a>
+                        <a href='https://dribbble.com/' target='_blank' class='sidebar_social_links'><i class="fab fa-dribbble"></i></a>
+                        <a href='https://www.pinterest.ru/' target='_blank' class='sidebar_social_links'><i class="fab fa-pinterest"></i></a>
+                        <a href='https://linkedin.com/' target='_blank' class='sidebar_social_links'><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="sidebar_slider swiper-container">
+                        <div class="sidebar_btn sidebar_prevBtn swiper-button-prev">
+                            <div class="sidebar_btn_arrows">
+                                <div class="arrow_head"></div>
+                                <div class="arrow_body"></div>
+                            </div>
+                        </div>
+                        <div class="sidebar_slider_content swiper-wrapper">
+                            <div class="sidebar_slider_item swiper-slide"><img src="img/Adventure_slider.jpg" alt="" class="sidebar_slider_item_img adventure_man"></div>
+                            <div class="sidebar_slider_item swiper-slide"><img src="img/mountains_slider.jpg" alt="" class="sidebar_slider_item_img"></div>
+                            <div class="sidebar_slider_item swiper-slide"><img src="img/adventure_race_slider.jpg" alt="" class="sidebar_slider_item_img circle_fortuna"></div>
+                        </div>
+                        <div class="sidebar_btn sidebar_nextBtn swiper-button-next">
+                            <div class="sidebar_btn_arrows">
+                                <div class="arrow_head"></div>
+                                <div class="arrow_body"></div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+    <section class='section_info'>
+        <div class='post_info'>
+            <div class="post_info_content">
+                <div class='post_info_item'>
+                    <h1 class='post_info_title'>About blog</h1>
+                    <p class='post_info_text'>A blog is a discussion or informational website, often informal diary-style text.</p>
+                    <div class='post_info_image'><img src="img/info_img/blog_women.jpg" alt="" class="post_info_img"></div>
+                </div>
+                <div class='post_info_item'>
+                    <h1 class='post_info_title'>Latest tweets</h1>
+                    <nav class='post_info_nav'>
+                        <ul class='post_info_ul'>
+                            <li class='post_info_li'>
+                                <div class='post_info_text'>@Twitter@magicalrebekah</div>
+                                <p class='post_info_text'>Developer Advocate @heyval isaiyou knows the very well  is about things.</p>
+                            </li>
+                            <li class='post_info_li'>
+                                <div class='post_info_text'>@Twitter@magicalrebekah</div>
+                                <p class='post_info_text'>Developer Advocate have a great work this knows the very well is about things.</p>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="post_info_content">
+                <div class='post_info_item'>
+                    <h1 class='post_info_title'>Follow me instagram</h1>
+                    <div class='post_info_gallery'>
+                        <div class='post_info_gallery_row'>
+                            <div class='post_info_gallery_item'><a href="https://www.instagram.com/l0cketp4ge/" target='_blank' class="gallery_link"><img src="img/info_img/girl_suck.jpg" alt="" class="gallery_img"></a></div>
+                            <div class='post_info_gallery_item'><a href="https://www.instagram.com/l0cketp4ge/" target='_blank' class="gallery_link"><img src="img/info_img/roof.jpg" alt="" class="gallery_img"></a></div>
+                            <div class='post_info_gallery_item'><a href="https://www.instagram.com/l0cketp4ge/" target='_blank' class="gallery_link"><img src="img/info_img/sex_men.jpg" alt="" class="gallery_img"></a></div>
+                            <div class='post_info_gallery_item'><a href="https://www.instagram.com/l0cketp4ge/" target='_blank' class="gallery_link"><img src="img/info_img/scary_girl.jpg" alt="" class="gallery_img"></a></div>
+                            <div class='post_info_gallery_item'><a href="https://www.instagram.com/l0cketp4ge/" target='_blank' class="gallery_link"><img src="img/info_img/legs_on_window.jpg" alt="" class="gallery_img"></a></div>
+                            <div class='post_info_gallery_item'><a href="https://www.instagram.com/l0cketp4ge/" target='_blank' class="gallery_link"><img src="img/info_img/sea.jpg" alt="" class="gallery_img"></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class='post_info_item'>
+                    <h1 class='post_info_title'>Latest comment</h1>
+                    <div class='post_info_comment'>
+                        <div class='post_info_text'>From alex:</div>
+                        <p class='post_info_text'>Developer Advocate @heyval isaiyou knows the very well  is about things.</p>
+                    </div>
+                    <div class='post_info_comment post_info_comment_item'>
+                        <div class='post_info_text'>From Jhon Doe:</div>
+                        <p class='post_info_text'>Developer Advocate @heyval isaiyou knows the very well  is about things.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class='footer'>
+        <div class='container'>
+            <div class='footer_copyrights'>
+                <span class='footer_span_first'>@2021 copyright. All right reserved by Awesome theme</span>
+                <a href='#' class='footer_terms'><span>Terms policy</span></a>
+                <a href="#" class="footer_terms"><span>Disclaimer</span></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>
