@@ -1511,6 +1511,8 @@ li{
     .sidebar_slider{
         height: 230px;
         width: 100%;
+        position: relative;
+        overflow: hidden;
     }
 
     .sidebar_btn{
